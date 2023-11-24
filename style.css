@@ -1,0 +1,307 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: linear-gradient(to bottom, #b3956c, black);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: "Special Elite",'Courier New', Courier, monospace;
+}
+
+/*main.html*/
+.front{
+    left: 2%;
+    top: 40%;
+    transform: translate(-50% -50%);
+    position: absolute; 
+    letter-spacing: 5px;
+    text-align: left;
+}
+.front h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    margin-bottom: 3%;
+    font-weight: bold;
+}
+.front .p1{
+    font-family: "Special Elite",'Courier New', Courier, monospace;
+    margin-bottom: 5%;
+}
+.front a{
+    font-family: "Roboto", sans-serif;
+    font-size: 19px;
+    background: #b3956c;
+    width: 180px;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: none;  
+}
+
+/*navigation bar*/
+nav{
+    width: 100%;
+    background-color: black;
+    box-shadow: none;
+    overflow: hidden;
+    position: fixed;
+}
+nav ul{
+    
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 19px;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+nav li{
+    height: 80px;
+}
+nav a{
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    color: white;
+}
+nav li:first-child{
+    margin-right: auto;
+}
+/*end of navigation bar*/
+
+
+/*menu.html*/
+.container{
+    width: 1000px;
+    margin: auto;
+    transition: 0.5s;
+}
+#main{
+    height: 700px;
+    background-image: url(image/coffee6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+#main h1{
+    margin-top: 20%;
+    text-align: center;
+    color: white;
+    padding-bottom: 2%;
+}
+
+#main p{
+    width: 600px;
+    margin-top: 0%;
+    margin-left: 29%;
+    text-align: center;
+    color: white;
+}
+
+#menu h1{
+    color: white;
+    margin-top: 6rem;
+}
+#coffee {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 60%;
+    margin: 0 auto;
+    position: static;
+    margin-top: 3rem;
+    margin-left: 20%;
+    padding-bottom: 2%;
+  }
+  #coffee img{
+    width: 25%;
+    padding-bottom: 2px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  #coffee td, #customers th {
+    border: 1px solid beige;
+    padding: 8px;
+  }
+  
+  #coffee tr:nth-child(even){background-color: #b3956c;}
+  
+  #coffee tr:hover {
+    background-color: #ddd;
+    color: white;
+}
+  
+  #coffee th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 0;
+    text-align: left;
+    background-color: black;
+    color: white;
+  }
+/*end of menu.html*/
+
+/*order.hmtl*/
+  .row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    margin: 0 -16px;
+    width: 100%;
+  }
+  
+  .order3 {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+  }
+  
+  .order2 {
+    -ms-flex: 50%; /* IE10 */
+    flex: 50%;
+  }
+  
+  .order1 {
+    -ms-flex: 75%; /* IE10 */
+    flex: 75%;
+  }
+  
+  .order3,
+  .order2,
+  .order1 {
+    padding: 0 16px;
+  }
+  
+  .container {
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+    width: 90%;
+  }
+  
+  input[type=text] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  label {
+    margin-bottom: 10px;
+    display: block;
+  }
+
+  select{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+
+  #qnum{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .btn {
+    background-color: black;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+  }
+  
+  .btn:hover {
+    background-color: #9c7a4b;
+  }
+  
+  a {
+    color: #2196F3;
+  }
+  
+  hr {
+    border: 1px solid lightgrey;
+  }
+  
+  
+/*end order.html*/
+
+/*services.html*/
+.operation {
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    text-align: center;
+}
+.operation h2{
+    margin-right: 260px ;
+    padding-bottom: 30px;
+    color: white;
+}
+table {
+    width: 60%;
+    border: 1px solid;
+    padding:5px;
+    background-color: white;
+  }
+  td{
+  text-align:center;
+  padding: 10px;
+  }
+/**/
+
+/*contact.html*/
+.rTitle {
+    position: absolute;
+    top: 170px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    background: rgba(0, 0, 0, 0.6);
+ }
+.box-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:0;
+}
+.box-container .box{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    align-items: center;
+    margin-top: 60%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    color: white;
+}
+/* end of contact.html*/
+
